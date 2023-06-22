@@ -1,0 +1,15 @@
+﻿/*3.1.4 불린(boolean)형 기본 타입*/
+
+using System;
+
+namespace ConsoleApp1
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			bool isNumeric = false;
+			Console.WriteLine(isNumeric);
+		}
+	}
+}
