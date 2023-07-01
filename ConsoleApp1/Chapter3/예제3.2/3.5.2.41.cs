@@ -1,4 +1,4 @@
-﻿/*foreach문 역시 for 문으로 그대로 변경할 수 있음*/
+﻿/*3.5.2.4 foreach 문*/
 
 using System;
 

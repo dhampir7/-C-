@@ -1,4 +1,4 @@
-﻿/*변수명에 값을 변경 후 출력*/
+﻿/*닷넷 형식으로 사용가능*/
 using System;
 
 namespace ConsoleApp1
@@ -7,9 +7,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int n1 = 50;
-            n1 = 200;
-            Console.WriteLine(n1);      // 출력 결과: 200
+            System.Int32 n1 = 50;
+            System.Int32 n2;
+            n2 = 100;
+
+            System.Int32 sum = n1 + n2;
+
+            Console.WriteLine(sum); // 출력 결과: 150
         }
     }
 }

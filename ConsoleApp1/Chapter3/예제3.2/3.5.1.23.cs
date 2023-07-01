@@ -1,4 +1,4 @@
-﻿/*조건이 여러 개인 경우 if/else if/else로 표현하는 것도 가능*/
+﻿/*3.5.1.2 if문*/
 
 using System;
 

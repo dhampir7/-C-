@@ -1,4 +1,4 @@
-﻿/*삼항 연산자(ternary operator)를 이용해 다음과 같이 간단하게 표현할 수 있음*/
+﻿/*3.5.1.2 if문*/
 
 using System;
 

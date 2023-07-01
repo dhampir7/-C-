@@ -1,8 +1,5 @@
 ﻿/*예제 1.1 CIL 확인용 예제*/
 
-using System;
-using System.Collections.Generic;
-
 class Program
 {
     static void Main(string[] args)

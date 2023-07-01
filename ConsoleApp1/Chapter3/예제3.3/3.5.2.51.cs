@@ -1,4 +1,4 @@
-﻿/*for 문을 사용하는 것도 가능*/
+﻿/*3.5.2.5 while 문*/
 
 using System;
 

@@ -1,4 +1,4 @@
-﻿/*'='는 대입 연산자(assignment operator)*/
+﻿/*3.3.6 연산자, 문장 부호*/
 
 using System;
 

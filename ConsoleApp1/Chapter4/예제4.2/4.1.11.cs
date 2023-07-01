@@ -1,4 +1,5 @@
-﻿/*값을 가져오려면 해당 필드의 타입과 동일한 타입으로 받을 수 있음.*/
+﻿/*4.1.1 필드*/
+
 
 using System;
 
@@ -14,13 +15,5 @@ namespace ConsoleApp1
 			string contents = gulliver.Contents;
 			int pageCount = gulliver.PageCount;
 		}
-        class Book
-        {
-            string Title;
-            decimal ISBN13;
-            string Contents;
-            string Author;
-            int PageCount;
-        }
     }
 }
