@@ -1,4 +1,5 @@
-﻿/*닷넷 형식으로 사용가능*/
+﻿/*3.1.1 정수형 기본 타입*/
+
 using System;
 
 namespace ConsoleApp1
