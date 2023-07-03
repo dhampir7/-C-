@@ -1,4 +1,4 @@
-﻿/*예제 4.10 부모 인스턴스를 자식으로 형변환하는 경우*/
+﻿/*4.3.1.1 as, is 연산자*/
 
 public class Computer
 {
@@ -27,5 +27,10 @@ public class Desktop : Computer
 }
 
 Computer pc = new Computer();
-Notebook notebook = (notebook)pc;       // 명시적 형변환, 컴파일은 가능
+Notebook notebook = pc as Notebook;
+
+if (notebook != null)   // 코드대로라면 if 문 내부의 코드가 실행될 가능성은 없다.
+{
+    notebook.CloseLid();
+}
 

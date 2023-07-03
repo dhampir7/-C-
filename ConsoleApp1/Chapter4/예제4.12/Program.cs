@@ -1,4 +1,4 @@
-﻿/*예제 4.10 부모 인스턴스를 자식으로 형변환하는 경우*/
+﻿/*예제 4.12 as의 잘못된 사용 예*/
 
 public class Computer
 {
@@ -26,6 +26,15 @@ public class Desktop : Computer
 {
 }
 
-Computer pc = new Computer();
-Notebook notebook = (notebook)pc;       // 명시적 형변환, 컴파일은 가능
+int n = 5;
+if ((n as string) != null)  // 컴파일 오류 발생
+{
+    Console.WriteLine("변수 n은 string 타입");
+}
+
+string txt = "text";
+if ((txt as int) != null)   // 컴파일 오류 발생
+{
+    Console.WriteLine("변수 txt는 int 타입");
+}
 

@@ -1,4 +1,4 @@
-﻿/*예제 4.10 부모 인스턴스를 자식으로 형변환하는 경우*/
+﻿/*예제 4.11 배열 요소에서의 암시적 형변환*/
 
 public class Computer
 {
@@ -26,6 +26,13 @@ public class Desktop : Computer
 {
 }
 
-Computer pc = new Computer();
-Notebook notebook = (notebook)pc;       // 명시적 형변환, 컴파일은 가능
+Computer[] machines =
+    new Computer[] { new Notebook(), new Desktop(), new Netbook() };    // 암시적 형변환
+
+DeviceManager manager = new DeviceManager();
+
+foreach (Computer device in machines)
+{
+    manager.TurnOff(device);
+}
 
